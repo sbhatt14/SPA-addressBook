@@ -1,0 +1,46 @@
+// The details of all the people, this information will be parsed in the cutomersvieModel.
+// The contacts array list is in JSON format with a key-value pair.
+
+function contactsDataService() {
+
+	var self = this;
+				
+	self.getContacts = function() {
+		var contacts = [
+
+		{ 		"id": "1", "firstName": "Pooja", "lastName":"Hebbale", "companyName":"Johns Hopkins", "pictureURL" : "../Data/{56A3419B-E150-45A4-95F0-C2344461C4E9}.jpg","emailAddress":"phebbal@jhu.edu"},
+		{		"id": "2", "firstName": "James", "lastName":"Anderson", "companyName":"TK System", "pictureURL" : "../Data/{D309C1DA-FBAE-408D-B5BF-E3678D84FF04}.jpg","emailAddress":"jj@tksys.com"},
+		{		"id": "3", "firstName": "Amy", "lastName":"Roy", "companyName":"UBS", "pictureURL" : "../Data/{BBAC9C68-68E1-49CB-88B6-905041F9982C}.jpg","emailAddress":"amyroy15@ubs.com"},
+		{		"id": "4", "firstName": "Debonil", "lastName":"Maity", "companyName":"JHU Molecular Biology", "pictureURL" : "../Data/{2252B9ED-E12A-4795-85E5-81B5E5B82927}.jpg","emailAddress":"dmaity25@jhu.edu"},
+		{		"id": "5", "firstName": "Richard", "lastName":"Davis", "companyName":"Dave & Busters", "pictureURL" : "../Data/{445B7B03-AFFE-42C0-9BBE-42926900478F}.jpg","emailAddress":"rdavis@dandb.com"},
+		{		"id": "6", "firstName": "Micehele", "lastName":"O'Conell", "companyName":"JHU EBS", "pictureURL" : "../Data/{83B9083D-BB60-4022-8D99-4BC158519A5E}.jpg","emailAddress":"mconell@ebs.com"},
+		{		"id": "7", "firstName": "Scott", "lastName":"Wright", "companyName":"JHU IT", "pictureURL" : "../Data/{7EE70E81-B786-4412-AFC7-F83C13657F73}.jpg","emailAddress":"scottd@gmail.gov"},
+		{		"id": "8", "firstName": "Rachel", "lastName":"Sherman", "companyName":"Armani", "pictureURL" : "../Data/{40880DB2-2962-4BD6-B5C8-D5C1F975F07C}.jpg","emailAddress":"rsherman@armani.com"},
+		{		"id": "9", "firstName": "Ray", "lastName":"William", "companyName":"Google", "pictureURL" : "../Data/{6D2833C1-CA98-4990-B637-B6600A130D7F}.jpg","emailAddress":"rwilliam@google.com"},
+		{		"id": "10", "firstName": "Garry", "lastName":"Stevenson", "companyName":"JHU", "pictureURL" : "../Data/{8FD8A448-0EFE-4505-809C-0A483EEBA9C4}.jpg","emailAddress":"garystecenson@JHU.com"},	
+		{		"id": "11", "firstName": "Yumiko", "lastName":"Kimura", "companyName":"IBM", "pictureURL" : "../Data/{927C8A4F-5518-491C-9DE8-EDE7CBE5A9E8}.jpg","emailAddress":"waura@ibm.com"},
+		{		"id": "12", "firstName": "Michelle", "lastName":"Jones", "companyName":"Logica", "pictureURL" : "../Data/{23523C2E-0243-487D-B262-42F87C799EC2}.jpg","emailAddress":"jjones@logica.com"},
+		{		"id": "13", "firstName": "Claudiu", "lastName":"Renault", "companyName":"Cisco", "pictureURL" : "../Data/{D83E749C-BB2F-4562-BAB9-749B040EA486}.jpg","emailAddress":"renault@cisco.com"},
+		{		"id": "14", "firstName": "Yara", "lastName":"Ali", "companyName":"Galaxy", "pictureURL" : "../Data/{4F88A794-D0DE-4468-8FA7-BFB327CE6BED}.jpg","emailAddress":"yaraali@galaxy.com"},
+		{		"id": "15", "firstName": "Beth", "lastName":"Frizel", "companyName":"ConnectCare", "pictureURL" : "../Data/{CFBB2113-AFB6-42B0-9063-F73F905A5A71}.jpg","emailAddress":"bfrizel@connectcare.com"},
+		{		"id": "16", "firstName": "Jenny", "lastName":"Shawnson", "companyName":"buy.com", "pictureURL" : "../Data/{C74A8C06-C505-492D-B86C-5824D98D3341}.jpg","emailAddress":"shawsone@buy.com"},
+		{		"id": "17", "firstName": "Mindy", "lastName":"Ralston", "companyName":"Big Boy", "pictureURL" : "../Data/{7E891A87-7160-4F59-9E61-060B4D10A36D}.jpg","emailAddress":"mralston@bigboy.com"},
+		{		"id": "18", "firstName": "Zhiren", "lastName":"Zhu", "companyName":"BMW", "pictureURL" : "../Data/{A221D99F-6997-4D25-81BE-FF0B339BF293}.jpg","emailAddress":"zhiren.7@bmw.com"},		
+
+		];
+
+		return(contacts);
+
+
+	};
+
+
+}
+;
+
+
+
+
+
+
+
