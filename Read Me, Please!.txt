@@ -1,0 +1,25 @@
+There are 4 folders in the project.
+
+1) Content, it has the CSS files in it.
+2) Data contains stock photos.
+3) Scripts - has two subfolders
+	-KO - Knockout, for part of the project I have used Knockout MVVM for databinding this is 
+	used to display the more information about any person, when one clicks on the picture of a 
+	particular contact. Knockout databinding is easy to implement, the datastore contains the information about
+	all the contacts. The fields of the contacts are set up as an observable variables and the values are returned 
+	in the HTML code by using the applyBinding method.
+	
+	-object - where the datastore contains the method embedded in which is the contact information to be parsed 
+	and binded to knockout. The variables of the contact list are set up as type observable here. The context method is 
+	also defined here for the SPA. These context are set via HTML where on being called the appropriate divs are shown/hidden.
+
+4) Views - This is where the webpage resides. The home page also displays a table which is populated using data parsed from the people.json
+	    document. The databinding here takes place without Knockout, I have made use of AJAX so that JavaScript can retrieve the information
+	    stored in JSON files, parse them and populate the table.
+
+
+Cross Browser Compatibility - Chrome won't allow loading local json files with ajax (error - XMLHttpRequest)  even when I explicity use these commands
+chrome.exe --disable-web-security
+chrome.exe --allow-file-access-from-files
+
+As of now the webpage just works with Firefox. Since firefox will allow loading local files.
